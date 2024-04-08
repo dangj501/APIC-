@@ -1,0 +1,26 @@
+GET https://localhost:7114/api/categorias
+
+###
+GET https://localhost:7114/api/categorias/2
+
+###
+POST https://localhost:7114/api/categorias 
+Content-Type: application/json
+
+{
+ "nombre": "Categoria de prueba"
+ 
+}
+
+###
+PUT https://localhost:7114/api/categorias/16
+
+Content-Type: application/json
+{
+"nombre": "Categoria de prueba editada",
+"categoriaid": 16,
+}
+
+###
+
+DELETE https://localhost:7114/api/categorias/6
